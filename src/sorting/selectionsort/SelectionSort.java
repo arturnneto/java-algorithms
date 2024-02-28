@@ -1,6 +1,22 @@
 package sorting.selectionsort;
 import java.util.Arrays;
 
+/*
+Selection Sort:
+- Starts with the first item on the list.
+- It is going to look for the index that contains the smallest value in the array, and we will store its *index*.
+- The index will be stored at a variable called minIndex.
+- Then it loops starting from the next item, checking if the value in a specific index is lower than the one we are checking.
+- If it is, we update the minIndex to be this specific item index.
+- After the loop ends, we will have the minimum index that this item should occupy, and we will swap the values at this
+index and the previous item's index.
+- Big Os:
+    - Best Case: O(N^2);
+    - Average Case: O(N^2);
+    - Worst Case: O(N^2);
+    - Space Complexity: O(1).
+ */
+
 public class SelectionSort {
 
     public static void selectionSort(int[] array) {
