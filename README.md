@@ -1,4 +1,5 @@
 # Algorithms - Java
+
 This folder contains a wide range of content about algorithms in Java. Additionally, this README file is also a quick review about them.  
 
 ![Big O table for sorting algorithms](https://lamfo-unb.github.io/img/Sorting-algorithms/Complexity.png)  
